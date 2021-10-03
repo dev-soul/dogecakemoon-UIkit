@@ -2332,10 +2332,10 @@ var PanelBody = function (_a) {
         if (entry.items) {
             return (React.createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, initialOpenState: entry.initialOpenState, className: calloutClass }, isPushed &&
                 entry.items.map(function (item) { return (React.createElement(MenuEntry, { key: item.label, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
-                    React.createElement(MenuLink, __assign({}, item.external ? { target: "_blank" } : {}, { href: item.href }), item.label))); })));
+                    React.createElement(MenuLink, __assign({}, (item.external ? { target: "_blank" } : {}), { href: item.href }), item.label))); })));
         }
         return (React.createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
-            React.createElement(MenuLink, __assign({}, entry.external ? { target: "_blank" } : {}, { href: entry.href, onClick: handleClick }),
+            React.createElement(MenuLink, __assign({}, (entry.external ? { target: "_blank" } : {}), { href: entry.href, onClick: handleClick }),
                 iconElement,
                 React.createElement(LinkLabel, { isPushed: isPushed }, entry.label))));
     })));
@@ -2546,13 +2546,13 @@ var ConnectModal = function (_a) {
         }
     }, []);
     return (React.createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
-        isMobileDevice &&
-            React.createElement("div", { style: { marginBottom: '20px' } },
-                React.createElement(Alert, { title: "", variant: "warning" },
-                    React.createElement(Text, { as: "p" },
-                        "It looks like you are on a mobile device, click ",
-                        React.createElement(Link, { style: { display: 'inline-block' }, href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true }, "here"),
-                        "\u00A0 If you are not on a mobile device, use the buttons below to connect your wallet."))),
+        isMobileDevice && (React.createElement("div", { style: { marginBottom: "20px" } },
+            React.createElement(Alert, { title: "", variant: "warning" },
+                React.createElement(Text, { as: "p" },
+                    "It looks like you are on a mobile device, click",
+                    " ",
+                    React.createElement(Link, { style: { display: "inline-block" }, href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true }, "here"),
+                    "\u00A0 If you are not on a mobile device, use the buttons below to connect your wallet.")))),
         connectors.map(function (entry, index) { return (React.createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
         React.createElement(HelpLink, { href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
             React.createElement(Icon$o, { color: "primary", mr: "6px" }),
