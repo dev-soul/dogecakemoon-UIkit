@@ -37,7 +37,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#e9f1fd", //color of words on top of LP staking page (Stake tokens to earn ...)
+  secondary: "#653101", //color of words on top of LP staking page (Stake tokens to earn ...)
   background: "#323232",
   backgroundDisabled: "#3c3742",
   contrast: "#653101",
@@ -45,7 +45,7 @@ export const darkColors: Colors = {
   input: "#483f3b", // 'stake only' slider
   inputBorder: "#cccccc",
   primaryDark: "#599e17",
-  tertiary: "#2d2f37", //color of highlighted box on menu
+  tertiary: "#ffffff", //color of highlighted box on menu
   text: "#653101", //color of words on home menu cards eg farms & staking
   textDisabled: "#666171", //color of boxes non highlighted on menu
   textSubtle: "#653101", //color of text on menu dropdown items
