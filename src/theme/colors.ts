@@ -28,7 +28,7 @@ export const lightColors: Colors = {
   textDisabled: "#BDC2C4", //color of boxes non highlighted on menu, might actually be the unhighlighted harvest word
   textSubtle: "#653101", //color of text on menu dropdown items
   borderColor: "#E9EAEB", //The small line on the left side, not important
-  card: "#191919", //Top and side blocks i think
+  card: "#ffffff", //Top and side blocks i think
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
   },
@@ -50,7 +50,7 @@ export const darkColors: Colors = {
   textDisabled: "#666171", //color of boxes non highlighted on menu
   textSubtle: "#653101", //color of text on menu dropdown items
   borderColor: "#524B63", //The small line on the left side, not important
-  card: "#191919",
+  card: "#ffffff",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
   },
