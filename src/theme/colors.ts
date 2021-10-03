@@ -2,7 +2,7 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#F72B50",
-  primary: "#bf3745", // color of the icons on navbar, scrollbar on right side, fill color of harvest and approve contracts
+  primary: "#653101", // color of the icons on navbar, scrollbar on right side, fill color of harvest and approve contracts
   primaryBright: "#599e17",
   primaryDark: "#599e17",
   secondary: "#7645D9",
@@ -50,7 +50,7 @@ export const darkColors: Colors = {
   textDisabled: "#666171", //color of boxes non highlighted on menu
   textSubtle: "#653101", //color of text on menu dropdown items
   borderColor: "#524B63", //The small line on the left side, not important
-  card: "#ffffff",
+  card: "#fdebbb",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
   },
