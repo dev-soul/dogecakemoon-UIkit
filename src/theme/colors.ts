@@ -50,7 +50,7 @@ export const darkColors: Colors = {
   textDisabled: "#666171", //color of boxes non highlighted on menu
   textSubtle: "#653101", //color of text on menu dropdown items
   borderColor: "#524B63", //The small line on the left side, not important
-  card: "#fdebbb",
+  card: "#ffffff",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #1f606f 0%, #164865 100%)",
   },
