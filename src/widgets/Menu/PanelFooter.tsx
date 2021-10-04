@@ -49,7 +49,7 @@ const SettingsEntry = styled.div`
 const SocialEntry = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 35px 0 0;
 `;
@@ -112,8 +112,8 @@ const PanelFooter: React.FC<Props> = ({
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "25px", color: "textSubtle", style: { cursor: "pointer" } };
-            const mr = index < socials.length - 1 ? "25px" : 0;
+            const iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
+            const mr = index < socials.length - 1 ? "24px" : 0;
             if (social.items) {
               return (
                 <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
