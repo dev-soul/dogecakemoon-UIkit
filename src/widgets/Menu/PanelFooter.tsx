@@ -112,8 +112,8 @@ const PanelFooter: React.FC<Props> = ({
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "20px", color: "textSubtle", style: { cursor: "pointer" } };
-            const mr = index < socials.length - 1 ? "20px" : 0;
+            const iconProps = { width: "25px", color: "textSubtle", style: { cursor: "pointer" } };
+            const mr = index < socials.length - 1 ? "25px" : 0;
             if (social.items) {
               return (
                 <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
