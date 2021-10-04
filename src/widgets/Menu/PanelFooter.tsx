@@ -49,7 +49,7 @@ const SettingsEntry = styled.div`
 const SocialEntry = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 35px 0 0;
 `;
