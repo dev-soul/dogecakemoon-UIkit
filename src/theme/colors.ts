@@ -42,7 +42,7 @@ export const darkColors: Colors = {
   backgroundDisabled: "#3c3742",
   contrast: "#653101",
   invertedContrast: "#0a0e17", //might be the stake only slider when activated
-  input: "#ffffff", // 'stake only' slider
+  input: "#653101", // 'stake only' slider
   inputBorder: "#cccccc",
   primaryDark: "#599e17",
   tertiary: "#ffffff", //color of highlighted box on menu
