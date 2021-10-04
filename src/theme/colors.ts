@@ -3,8 +3,8 @@ import { Colors } from "./types";
 export const baseColors = {
   failure: "#F72B50",
   primary: "#653101", // color of the icons on navbar, scrollbar on right side, fill color of harvest and approve contracts
-  primaryBright: "#599e17",
-  primaryDark: "#599e17",
+  primaryBright: "#83ecf0",
+  primaryDark: "#83ecf0",
   secondary: "#7645D9",
   success: "#68CF29",
   warning: "#FFAB2D",
@@ -44,7 +44,7 @@ export const darkColors: Colors = {
   invertedContrast: "#0a0e17", //might be the stake only slider when activated
   input: "#653101", // 'stake only' slider
   inputBorder: "#cccccc",
-  primaryDark: "#599e17",
+  primaryDark: "#83ecf0",
   tertiary: "#ffffff", //color of highlighted box on menu
   text: "#653101", //color of words on home menu cards eg farms & staking
   textDisabled: "#666171", //color of boxes non highlighted on menu
