@@ -38,7 +38,7 @@ export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
   secondary: "#653101", //color of words on top of LP staking page (Stake tokens to earn ...)
-  background: "#323232",
+  background: "#ffffff",
   backgroundDisabled: "#3c3742",
   contrast: "#653101",
   invertedContrast: "#0a0e17", //might be the stake only slider when activated
