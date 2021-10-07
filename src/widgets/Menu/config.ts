@@ -116,6 +116,11 @@ export const links = [
 
 export const socials = [
   {
+    label: "Medium",
+    icon: "MediumIcon",
+    href: "https://medium.com/@dogecakemoon/dogecakemoon-swap-launching-on-binance-smart-chain-e52aeff7ed5a",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
@@ -131,6 +136,8 @@ export const socials = [
     href: "https://twitter.com/DogeCakeMoon",
   },
 ];
+
+
 
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;

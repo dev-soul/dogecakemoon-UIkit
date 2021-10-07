@@ -2177,6 +2177,11 @@ var links = [
 ];
 var socials = [
     {
+        label: "Medium",
+        icon: "MediumIcon",
+        href: "https://medium.com/@dogecakemoon/dogecakemoon-swap-launching-on-binance-smart-chain-e52aeff7ed5a",
+    },
+    {
         label: "Telegram",
         icon: "TelegramIcon",
         items: [
