@@ -79,7 +79,7 @@ const PanelFooter: React.FC<Props> = ({
 
     
     <Container>
-      {/* <a href="https://rugdoc.io/"><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png"/></a> */}
+      <a href="https://rugdoc.io/"><img src="https://raw.githubusercontent.com/dev-soul/assets/main/RugDoc.png"/></a>
       <SettingsEntry>
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank">
